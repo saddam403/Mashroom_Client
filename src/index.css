@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+:root {
+--primary: #0066ff;
+
+}
+
+
+
+
+/* @apply shadow-[0_10px_30px_rgba(2,6,23,0.18)]; */
+.shadow-premium {
+  @apply shadow-[0_10px_30px_rgba(2,6,23,0.18)];
+}
+
+
+body {
+@apply bg-gray-50 text-gray-800;
+}
+
+.card-premium {
+@apply rounded-2xl overflow-hidden bg-white shadow-[0_10px_30px_rgba(2,6,23,0.18)];
+}
+
+.btn-primary {
+  @apply bg-(--primary) text-white px-4 py-2 rounded-xl;
+}
+.dark body {
+@apply bg-gray-900 text-gray-100;
+}
+
+
