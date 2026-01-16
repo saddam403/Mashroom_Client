@@ -31,6 +31,8 @@ export default function Header() {
             </span>
             <span className="tracking-wide">Mushroom Shop</span>
           </Link>
+          <h1 style={{ fontSize: "30px", color: "red" }}>HELLO — THIS IS LIVE</h1>
+
 
           {/* DESKTOP MENU */}
           <nav className="hidden md:flex items-center gap-6 font-medium pointer-events-auto">
