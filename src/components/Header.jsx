@@ -127,7 +127,7 @@ export default function Header() {
             Home
           </NavLink>
 
-          {user ? (
+          {user && (
             <NavLink
               to="/admin"
               onClick={() => setOpen(false)}
@@ -140,14 +140,6 @@ export default function Header() {
               }
             >
               Admin Panel
-            </NavLink>
-          ) : (
-            <NavLink
-              to="/admin/login"
-              onClick={() => setOpen(false)}
-              className={navClass}
-            >
-              Admin Login
             </NavLink>
           )}
         </div>
